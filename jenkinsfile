@@ -30,7 +30,6 @@ pipeline{
 
 /*
 ================
-hello
 for mvn commands to run:
 1. install mvn with apt. No need to install maven with jenkins global installer.
 
