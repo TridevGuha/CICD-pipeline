@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('git'){
             steps{
-                git 'https://github.com/coolgourav147/spring-boot-war-example.git' // this all cleans existing git folder
+                git 'https://github.com/coolgourav147/spring-boot-war-example.git' // this also cleans existing same git folder
             }
         }
         stage('test'){
